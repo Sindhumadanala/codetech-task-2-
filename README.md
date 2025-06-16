@@ -34,7 +34,7 @@ Based on the "Deliverable" section, the key activities would include:
  * **Coding Phase:**
    * Writing the Hardware Description Language (HDL) code (likely Verilog or VHDL, although not explicitly stated, these are standard for digital design) for the designed RAM module. This involves translating the logic into HDL constructs.
     
-** * Testbench Development:**
+*** Testbench Development:**
    * Creating a comprehensive testbench to simulate and verify the functionality of the RAM. This testbench will:
      * Generate clock signals.
      * Apply various write operations to store data at different addresses.
@@ -43,13 +43,11 @@ Based on the "Deliverable" section, the key activities would include:
      * Test edge cases and concurrent read/write scenarios if applicable.
        
 ***Simulation and Verification:**
-
      * Running simulations using an HDL simulator.
      * Analyzing the simulation waveforms and results to confirm that the RAM performs read and write operations correctly and synchronously.
     * Debugging any design or coding errors identified during simulation.
     
 ***Documentation (Implicit):**
-
     * While not explicitly listed as a separate deliverable like a "report," the "simulation demonstrating RAM functionality" implies that the simulation results and the testbench itself serve as documentation of the RAM's correct operation.
       
 **Technologies Used:**
@@ -61,7 +59,7 @@ While not explicitly stated in the image, based on standard digital design pract
    * Verilog (most probable, given its popularity in industry)
    * VHDL
      
-*** HDL Simulator:** Software tools used to simulate and verify the functionality of HDL designs. Examples include:
+***HDL Simulator:** Software tools used to simulate and verify the functionality of HDL designs. Examples include:
    * ModelSim
    * Xilinx Vivado Simulator
    * Intel Quartus Prime Simulator
