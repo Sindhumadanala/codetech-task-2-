@@ -42,24 +42,29 @@ Based on the "Deliverable" section, the key activities would include:
      * Verify that the retrieved data matches the previously written data.
      * Test edge cases and concurrent read/write scenarios if applicable.
        
-*** Simulation and Verification:**
+***Simulation and Verification:**
+
      * Running simulations using an HDL simulator.
      * Analyzing the simulation waveforms and results to confirm that the RAM performs read and write operations correctly and synchronously.
     * Debugging any design or coding errors identified during simulation.
-* Documentation (Implicit):
+    
+***Documentation (Implicit):**
+
     * While not explicitly listed as a separate deliverable like a "report," the "simulation demonstrating RAM functionality" implies that the simulation results and the testbench itself serve as documentation of the RAM's correct operation.
       
 **Technologies Used:**
+
 While not explicitly stated in the image, based on standard digital design practices for such projects, the following technologies would be used:
 
-** * Hardware Description Language (HDL):**
+**Hardware Description Language (HDL):**
+
    * Verilog (most probable, given its popularity in industry)
    * VHDL
      
-** * HDL Simulator:** Software tools used to simulate and verify the functionality of HDL designs. Examples include:
+*** HDL Simulator:** Software tools used to simulate and verify the functionality of HDL designs. Examples include:
    * ModelSim
    * Xilinx Vivado Simulator
    * Intel Quartus Prime Simulator
    * QuestaSim
      
-** * Text Editor / Integrated Development Environment (IDE):** For writing and managing the HDL code.
+***Text Editor / Integrated Development Environment (IDE):** For writing and managing the HDL code.
