@@ -11,8 +11,11 @@
 **Overview of the Topic(RAM Design):**
 
 **RAM (Random Access Memory)** is a type of computer memory that can be accessed randomly, meaning any byte of memory can be accessed without touching the preceding bytes. It is a volatile memory, meaning it loses its data when the power is turned off.
+
  * Synchronous RAM: In synchronous RAM (SRAM, but in this context, it generally refers to any RAM designed with a clock), all operations (read and write) are synchronized to a clock signal. This means that data is typically read or written on the rising or falling edge of a clock cycle, making it easier to integrate into synchronous digital systems.
+   
  * Read Operation: Involves retrieving data from a specific memory address.
+   
  * Write Operation: Involves storing data at a specific memory address.
 Designing RAM involves understanding memory addressing, data pathways, control signals (like read enable, write enable, clock), and the internal storage elements (like flip-flops or latches for synchronous behavior).
 
@@ -34,7 +37,7 @@ Based on the "Deliverable" section, the key activities would include:
  * **Coding Phase:**
    * Writing the Hardware Description Language (HDL) code (likely Verilog or VHDL, although not explicitly stated, these are standard for digital design) for the designed RAM module. This involves translating the logic into HDL constructs.
     
-*** Testbench Development:**
+***Testbench Development:**
    * Creating a comprehensive testbench to simulate and verify the functionality of the RAM. This testbench will:
      * Generate clock signals.
      * Apply various write operations to store data at different addresses.
@@ -43,12 +46,14 @@ Based on the "Deliverable" section, the key activities would include:
      * Test edge cases and concurrent read/write scenarios if applicable.
        
 ***Simulation and Verification:**
-     * Running simulations using an HDL simulator.
+     
+   * Running simulations using an HDL simulator.
      * Analyzing the simulation waveforms and results to confirm that the RAM performs read and write operations correctly and synchronously.
     * Debugging any design or coding errors identified during simulation.
     
 ***Documentation (Implicit):**
-    * While not explicitly listed as a separate deliverable like a "report," the "simulation demonstrating RAM functionality" implies that the simulation results and the testbench itself serve as documentation of the RAM's correct operation.
+   
+   * While not explicitly listed as a separate deliverable like a "report," the "simulation demonstrating RAM functionality" implies that the simulation results and the testbench itself serve as documentation of the RAM's correct operation.
       
 **Technologies Used:**
 
